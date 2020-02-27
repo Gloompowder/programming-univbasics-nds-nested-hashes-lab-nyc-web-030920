@@ -15,6 +15,7 @@ def assembled_aoh
   new_value << PAT_M
   new_value << KATE_G
   new_value << BRUCE_G
+  return new_value
 end
 
 def literal_aoh
